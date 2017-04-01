@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+puts "======= CRIANDO PAGINAS DE EXEMPLO..."
+10.times do |index|
+  Page.create!(
+    title: "Titulo #{index}",
+    body: "Texto texto texto"
+  )
+end
