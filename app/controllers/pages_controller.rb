@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+  before_action :authenticate_admins!, except: [:show, :homepage]
   before_action :set_page, only: [:show, :edit, :update, :destroy]
 
   # GET /pages
