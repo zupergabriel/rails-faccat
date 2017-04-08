@@ -14,7 +14,8 @@ Admin.create!(
 puts "=======> CRIANDO PAGINAS DE EXEMPLO"
 10.times do |index|
   Page.create!(
+    slug: "titulo-#{index}",
     title: "Titulo #{index}",
-    body: "Texto texto texto"
+    body: "Lorem ipsum dolor sit amet"
   )
 end
