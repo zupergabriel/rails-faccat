@@ -20,6 +20,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # TWITTER BOOTSTRAP
 gem 'bootstrap-sass', '~> 3.3.6'
+#Devise é usuado para atenticação de usuario
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
